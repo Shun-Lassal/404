@@ -59,10 +59,25 @@ div.main {
   background: linear-gradient(to bottom right, #ff6600 0%, #0066cc 100%);
 }
 
+div.inside {
+  background-color:grey;
+  border-radius:20px;
+  margin-left: 600px;
+  margin-right:600px;
+}
+
+div.inside2 {
+  background-color:white;
+  border-radius:20px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
 h1 {
   font-size:60px;
   padding-top:50px;
   display:block;
+  color:black;
 }
 
 img#pips {
@@ -90,6 +105,7 @@ span#anim1 {
 span#anim2 {
 
   animation: Test 1s infinite;
+  padding-bottom:20px;
 
 }
 
